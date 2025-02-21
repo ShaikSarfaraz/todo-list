@@ -11,11 +11,6 @@ export function TodoFilters() {
 
   const filters: FilterStatus[] = ["all", "active", "completed"]
 
-  // const currentFilter = useAppSelector((state) => state.filter.status)
-  // const dispatch = useAppDispatch()
-
-  // const filters: FilterStatus[] = ["all", "active", "completed"]
-
   return (
     <div className="flex gap-2">
       {filters.map((filter) => (
