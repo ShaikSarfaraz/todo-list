@@ -8,11 +8,6 @@ export const metadata: Metadata = {
   description: "Tasks to complete",
 }
 
-// export const metadata: Metadata = {
-//   title: "Todo-List",
-//   description: "Tasks to complete",
-// }
-
 export default function RootLayout({
   children,
 }: {
