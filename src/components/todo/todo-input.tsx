@@ -30,10 +30,10 @@ export function TodoInput() {
         placeholder="Add a new todo..."
         className="flex-1"
       />
-      {/* <Button type="submit" disabled={!text.trim()}>
+      <Button type="submit" disabled={!text.trim()}>
         <PlusCircle className="mr-2 h-4 w-4" />
         Add
-      </Button> */}
+      </Button>
     </form>
   )
 }
