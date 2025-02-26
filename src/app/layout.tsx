@@ -3,10 +3,10 @@ import type { Metadata } from "next"
 import "./globals.css"
 import { Providers } from "./providers"
 
-export const metadata: Metadata = {
-  title: "Todo-List",
-  description: "Tasks to complete",
-}
+// export const metadata: Metadata = {
+//   title: "Todo-List",
+//   description: "Tasks to complete",
+// }
 
 export default function RootLayout({
   children,
@@ -16,7 +16,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <Providers>{children}</Providers>
+        {/* <Providers>{children}</Providers> */}
       </body>
     </html>
   )
