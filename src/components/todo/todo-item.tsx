@@ -30,9 +30,9 @@ export function TodoItem({ todo }: TodoItemProps) {
       {isEditing ? (
         <div className="flex flex-1 items-center gap-2">
           <Input value={editedText} onChange={(e) => setEditedText(e.target.value)} className="flex-1" />
-          {/* <Button size="icon" variant="ghost" onClick={handleEdit}>
+          <Button size="icon" variant="ghost" onClick={handleEdit}>
             <Check className="h-4 w-4" />
-          </Button> */}
+          </Button>
           <Button
             size="icon"
             variant="ghost"
