@@ -14,7 +14,7 @@ export default function TodoPage() {
 
         <div className="flex items-center justify-between">
           <TodoFilters />
-          {/* <TodoStats /> */}
+          <TodoStats />
         </div>
 
         <TodoList />
