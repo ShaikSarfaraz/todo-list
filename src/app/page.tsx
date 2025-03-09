@@ -13,11 +13,11 @@ export default function TodoPage() {
         </div>
 
         <div className="flex items-center justify-between">
-          {/* <TodoFilters />
-          <TodoStats /> */}
+          <TodoFilters />
+          <TodoStats />
         </div>
 
-        {/* <TodoList /> */}
+        <TodoList />
       </div>
     </main>
   )
